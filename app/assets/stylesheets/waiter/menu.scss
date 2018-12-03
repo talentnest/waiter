@@ -6,7 +6,7 @@
   width: 100%;
   display: block;
   height: 40px;
-  border: 0px;
+  border: 0;
   background: image-url('waiter/bg.gif') repeat-x left top;
 
   div.top-item
@@ -16,13 +16,13 @@
     top: 10px;
     height: 20px;
     min-width: 80px;
-    border-right: 1px solid #e6e9ef;
+    border-right: 1px solid #E6E9EF;
     border-left: 0;
     margin: 0;
     text-align: center;
     /* Fix IE7 z-index bug - See http://brenelz.com/blog/squish-the-internet-explorer-z-index-bug/ */
     z-index: 10501;
-    color: #e6e9ef;
+    color: #E6E9EF;
     font-weight: bold;
     font-size: 14px;
     padding: 5px 15px 5px 10px;
@@ -132,7 +132,7 @@
         &:not(.heading):hover
         {
           background-color: $submenu-item-hover;
-          color: white;
+          color: #FFF;
         }
 
         &.separator
